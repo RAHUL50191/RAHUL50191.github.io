@@ -17,13 +17,16 @@ footer{
         
         box-shadow: inset -1px -1px 2px rgba(69, 69, 69, 0.5);
       }
+      html{
+        scroll-behavior: smooth;
+      }
       
 </style>
   <nav class="bg-black text-gray-100 justify-center flex sticky top-0 z-[1]">
       <ul class="inline-flex  justify-center mx-[10%]">
          <li
            class="p-2 xs:p-2 sm:p-2 md:p-4 lg:p-4 xl:p-6  hover:ab">
-           <a href="./home.html"><img src="./favicon/fav2/favicon-32x32.png"></a>
+           <a href="#end"><img src="./favicon/fav2/favicon-32x32.png"></a>
           </li>
           <li
               class="p-2 xs:p-2 sm:p-2 md:p-4 lg:p-4 xl:p-6  hover:border-b-2 hover:pb-2 text-xs sm:text-base md:text-lg">
@@ -157,7 +160,7 @@ footer{
 
 </section>
 <!-- job req-card -->
-<label class="flex justify-center text-3xl  text-white ">Recent Top recruiter</label>
+<label id="end" class="flex justify-center text-3xl  text-white ">Recent Top recruiter</label>
 <section class="flex justify-center p-[5rem] pt-[2.5rem] h-auto w-auto">
   
   <div class="h-[35rem] w-[75rem] flex-wrap h-fit bg-slate-100 shadow-lg border-solid border-2 border-[#243c5a] flex px-10 py-8 shadow-inner justify-center w-fit">
